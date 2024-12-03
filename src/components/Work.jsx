@@ -9,10 +9,16 @@ const works = [
     projectLink:'https://github.com/jas001469/Camp-Quest'
   },
   {
+    imgSrc: '/images/project4.png',
+    title: 'E-Art Gallery',
+    tags: ['Web-design', 'NodeJS', 'eCommerce','React','ExpressJS','MongoDB','JWT'],
+    projectLink: 'https://github.com/jas001469'
+  },
+  {
     imgSrc: '/images/project2.png',
-    title: 'Expense Tracker App',
-    tags: ['Graphs', 'React', 'Development', 'API'],
-    projectLink: 'https://expense-tracker-7cgpz1xhn-jas001469.vercel.app/'
+    title: 'BorrowEase',
+    tags: ['Graphs', 'React','NodeJS', 'ExpressJS','API','JWT'],
+    projectLink: 'https://github.com/jas001469'
   },
   {
     imgSrc: '/images/project3.avif',
@@ -20,24 +26,6 @@ const works = [
     tags: ['Development', 'API', 'React', 'Graphs'],
     projectLink: 'https://crypto-cjhg6o754-jas001469.vercel.app/'
   },
-//   {
-//     imgSrc: '/images/project-4.jpg',
-//     title: 'Real state website',
-//     tags: ['Web-design', 'Development'],
-//     projectLink: 'https://github.com/codewithsadee-org/wealthome'
-//   },
-//   {
-//     imgSrc: '/images/project-5.jpg',
-//     title: 'eCommerce website',
-//     tags: ['eCommerce', 'Development'],
-//     projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
-//   },
-//   {
-//     imgSrc: '/images/project-6.jpg',
-//     title: 'vCard Personal portfolio',
-//     tags: ['Web-design', 'Development'],
-//     projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
-//   },
 ];
 
 
