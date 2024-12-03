@@ -33,69 +33,71 @@ const socialLinks = [
   ];
   const Hero = () => {
     return (
-      <section id="home" className="pt-28 lg:pt-34 mt-12" >
-        <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
-  
-          <div>
-            <div className="flex items-center gap-3">
-              <div className="flex items-center gap-1.5 text-zinc-400 text-lg tracking-wide">
-                <span className="relative w-3 h-3 rounded-full bg-emerald-400">
-                  <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
-                </span>
-                Hello, It's me
-              </div>
-            </div>
-  
-            <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-2 mb-8 lg:mb-2">
-              Jas Singh <br/> Ajmani
-            </h2>
-            <p className="flex items-center gap-1.5 text-zinc-400 text-lg tracking-wide mb-2" >
-                Full Stack Developer
-            </p>
-            <p className="flex items-center gap-1.5 text-zinc-400 text-lg tracking-wide mb-6">
-            I'm a 2nd-year Computer Science and Engineering student at GGSIPU, New Delhi.
-            </p>
-            <div className="flex items-center gap-3">
-              <ButtonPrimary
-                href={resume}
-                label="Download CV"
-                icon="download"
-              /> 
-              <ButtonOutline
-                href="#work"
-                label="View Work"
-                icon="arrow_downward"
-              />
-            </div>
-          </div>
-  
-          <div className="hidden lg:block flex flex-col items-center">
-            <figure className="w-full max-w-[600px] ml-12 bg-gradient-to-t from-sky-400/40 via-25% via-sky-400/40 to-% rounded-[60px] overflow-hidden">
-              <img
-                src="/images/picwithoutbg.png"
-                width={400}  // Adjusting the width to make the image bigger
-                height={400}
-                alt="Jas Singh"
-                className="w-full"
-              />
-            </figure>
-            <div className="flex items-center gap-2 mt-5 ml-12 mb-12">  {/* Shift the icons to align with the image */}
-              {socialLinks.map(({ href, icon }, key) => (
-                <a
-                  key={key}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"  // Added rel="noopener noreferrer" to improve security
-                  className="w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80"
-                >
-                  {icon}
-                </a>
-              ))}
-            </div>
-          </div>
-  
+      <section id="home" className="pt-28 lg:pt-34 mt-12">
+  <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
+
+    <div>
+      <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1.5 text-zinc-400 text-lg tracking-wide">
+          <span className="relative w-3 h-3 rounded-full bg-emerald-400">
+            <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
+          </span>
+          Hello, It's me
         </div>
-      </section>
+      </div>
+
+      <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-2 mb-8 lg:mb-2">
+        Jas Singh <br/> Ajmani
+      </h2>
+      <p className="flex items-center gap-1.5 text-zinc-400 text-lg tracking-wide mb-2">
+        Full Stack Developer
+      </p>
+      <p className="flex items-center gap-1.5 text-zinc-400 text-lg tracking-wide mb-6">
+        I'm a 2nd-year Computer Science and Engineering student at GGSIPU, New Delhi.
+      </p>
+      <div className="flex items-center gap-3">
+        <ButtonPrimary
+          href={resume}
+          label="Download CV"
+          icon="download"
+        /> 
+        <ButtonOutline
+          href="#work"
+          label="View Work"
+          icon="arrow_downward"
+        />
+      </div>
+    </div>
+
+    <div className="flex justify-center items-center lg:block mt-6 lg:mt-0">
+      {/* The image container */}
+      <figure className="w-full max-w-full lg:max-w-[600px] ml-0 lg:ml-12 bg-gradient-to-t from-sky-400/40 via-25% via-sky-400/40 to-% rounded-[60px] overflow-hidden">
+        <img
+          src="/images/picwithoutbg.png"
+          alt="Jas Singh"
+          className="w-full h-auto object-contain"  // Ensuring the image is responsive
+        />
+      </figure>
+
+      {/* Social Links - Stack vertically on small screens */}
+      <div className="flex flex-col lg:flex-row items-center gap-4 mt-5 ml-0 lg:ml-12 mb-12">
+        {socialLinks.map(({ href, icon }, key) => (
+          <a
+            key={key}
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"  // Added for security
+            className="w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80"
+          >
+            {icon}
+          </a>
+        ))}
+      </div>
+    </div>
+
+  </div>
+</section>
+
     )
 }
   
