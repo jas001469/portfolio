@@ -9,7 +9,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center justify-between">
           
           <div className="ml-0 md:ml-0 text-center md:text-left mb-12">
-            <h1 className="text-[10rem] md:text-[15rem] lg:text-[20rem] font-bold text-[#ffcd41] leading-none " >03</h1>
+            <h1 className="text-[10rem] md:text-[15rem] lg:text-[20rem] font-bold text-[#ffcd41] leading-none " >02</h1>
             <h3 className="text-lg ml-12 md:text-xl tracking-wide mt-[-1rem] md:mt-[-2rem]">years of experience</h3>
             <div className="text-3xl md:text-4xl font-bold tracking-wider mt-4">
              
