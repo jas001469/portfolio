@@ -1,0 +1,16 @@
+*{
+    font-family:Poppins ;
+}
+::-webkit-scrollbar{
+    width: 1rem;
+    height: 1rem;
+    color: rgb(30, 30, 30);
+}
+::-webkit-scrollbar-track {
+    
+    background-color:#02141d;
+}
+::-webkit-scrollbar-thumb {
+border-radius: 2rem;
+background-color: #29cce5;
+}
