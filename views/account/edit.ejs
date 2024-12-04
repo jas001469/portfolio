@@ -1,0 +1,18 @@
+<% layout('layouts/boilerplate') %>
+    <h1>Edit Account</h1>
+    <form action="/accounts/<%= account._id%>?_method=PUT" method="POST">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Account[name]" value="<%= account.name %>">
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="Account[phone]" value="<%= account.phone %>">
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <input type="text" id="address" name="Account[address]" value="<%= account.address %>">
+        </div>
+        <button>Update Account</button>
+    </form>
+    <a href="/accounts/<%= account._id %>">Back To Account</a>

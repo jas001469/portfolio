@@ -1,0 +1,45 @@
+<% layout('layouts/boilerplate') %>
+    <form action="/accounts" method="POST">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Account[name]">
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="Account[phone]">
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <input type="text" id="address" name="Account[address]">
+        </div>
+        <div>
+            <label for="email">Email-id</label>
+            <input type="text" id="email" name="Account[email]">
+        </div>
+        <button>Add Account</button>
+    </form>
+    <a href="/accounts">All accounts</a>
+
+<!-- <form action="/accounts" method="POST">
+  
+        <h3 class="mb-4">Create Account</h3>
+    <div class="input-group mb-4">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1" name="Account[name]">
+      </div>
+      <div class="input-group mb-4">
+        <input type="text" class="form-control" placeholder="Email-id" aria-label="Recipient's username" aria-describedby="basic-addon2" name="Account[email]">
+        <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+      </div>
+      <div data-mdb-input-init class="form-outline mb-4" >
+        <input type="tel" id="typePhone" class="form-control" placeholder="Phone Number" name="Account[phone]">
+         <label class="form-label" for="typePhone">Phone number</label> -->
+    <!-- </div> -->
+    <!-- <div data-mdb-input-init class="mb-4">
+        <input type="text" id="form7Example4" class="form-control" placeholder="Address" name="Account[address]">
+        <label class="form-label" for="form7Example4">Address</label> 
+      </div> -->
+      <!-- <button type="button" class="btn btn-outline-dark">Add Account</button>
+     <button>Add Account</button> 
+      </form>
+      <a href="/accounts">All accounts</a> 

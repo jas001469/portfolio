@@ -1,0 +1,7 @@
+<% layout('layouts/boilerplate') %>
+    <h1>All Accounts</h1>
+    <ul>
+        <% for (let account of accounts) {%>
+           <li><a href="/accounts/<%= account._id %>"><%=account.name%></a></li>
+            <% }%>
+    </ul>
