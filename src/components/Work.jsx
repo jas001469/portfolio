@@ -11,7 +11,7 @@ const works = [
   {
     imgSrc: '/images/project4.png',
     title: 'E-Art Gallery',
-    tags: ['Web-design', 'NodeJS', 'eCommerce','React','ExpressJS','MongoDB','JWT'],
+    tags: ['Web-design', 'NodeJS', 'eCommerce','React','ExpressJS','MongoDB','JWT','MERN Stack'],
     projectLink: 'https://github.com/jas001469'
   },
   {
