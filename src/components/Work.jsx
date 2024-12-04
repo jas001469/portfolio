@@ -18,7 +18,7 @@ const works = [
     imgSrc: '/images/project2.png',
     title: 'BorrowEase',
     tags: ['Graphs', 'React','NodeJS', 'ExpressJS','API','JWT'],
-    projectLink: 'https://github.com/jas001469'
+    projectLink: 'https://github.com/jas001469/BorrowEase'
   },
   {
     imgSrc: '/images/project3.avif',
