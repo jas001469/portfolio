@@ -2,7 +2,11 @@
   "name": "borrowease",
   "version": "1.0.0",
   "main": "index.js",
+  "engine":{
+    "node":"14.x"
+  },
   "scripts": {
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,5 +25,8 @@
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
   }
 }
