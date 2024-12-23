@@ -20,13 +20,18 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ],
-    "eslint":{
-      "ignoreDuringBuilds":true
-    }
+    "extends": ["react-app"],
+    "rules": {
+      "no-unused-vars": "warn"
+    },
+    "overrides": [
+      {
+        "files": ["**/*.ts?(x)"],
+        "rules": {
+          "max-len": "warn"
+        }
+      }
+    ]
   },
   "browserslist": {
     "production": [
