@@ -9,10 +9,10 @@ const works = [
     projectLink:'https://github.com/jas001469/Camp-Quest'
   },
   {
-    imgSrc: '/images/project4.png',
-    title: 'E-Art Gallery',
-    tags: ['Web-design', 'NodeJS', 'eCommerce','React','ExpressJS','MongoDB','JWT','MERN Stack'],
-    projectLink: 'https://github.com/jas001469'
+    imgSrc: '/images/project3.png',
+    title: 'RealTime-Chat-App',
+    tags: ['Socket.io', 'NodeJS', 'Tailwindcsss','React','ExpressJS','MongoDB','JWT','Full Stack'],
+    projectLink: 'https://github.com/jas001469/fullStack-Chat-App'
   },
   {
     imgSrc: '/images/project2.png',
