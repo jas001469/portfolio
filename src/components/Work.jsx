@@ -18,7 +18,7 @@ const works = [
     imgSrc: '/images/project2.png',
     title: 'BorrowEase',
     tags: ['Graphs', 'React','NodeJS', 'ExpressJS','API','JWT'],
-    projectLink: 'https://github.com/jas001469/BorrowEase'
+    projectLink: 'https://borrow-ease-five.vercel.app/'
   },
   {
     imgSrc: '/images/project3.avif',
