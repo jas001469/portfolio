@@ -53,7 +53,7 @@ const socialLinks = [
         Full Stack Developer
       </p>
       <p className="flex items-center gap-1.5 text-zinc-400 text-lg tracking-wide mb-6">
-        I'm a 2nd-year Computer Science and Engineering student at GGSIPU, New Delhi.
+        I'm a 3rd year Computer Science and Engineering student at GGSIPU, New Delhi.
       </p>
       <div className="flex items-center gap-3">
         <ButtonPrimary
