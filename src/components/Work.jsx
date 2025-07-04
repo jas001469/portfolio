@@ -3,6 +3,12 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
+    imgSrc: '/images/project.png',
+    title: 'Official IEEE GTBIT SB Website',
+    tags: ['React', 'TailwindCSS', 'Firebase', 'Vercel'],
+    projectLink: 'https://ieeegtbit.com/'
+  }
+  ,{
     imgSrc: '/images/project1.png',
     title: 'CampQuest',
     tags: ['MERN Stack', 'ExpressJS','NodeJS', 'MongoDB','Authentication','API'],
