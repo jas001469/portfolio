@@ -51,14 +51,20 @@ const Navbar = ({ navOpen }) => {
       ref: useRef(null),
     },
     {
-      label: "Skills",
-      link: "#skill",
+      label: "Experience",
+      link: "#experience",
       className: "nav-link",
       ref: useRef(null),
     },
     {
       label: "Work",
       link: "#work",
+      className: "nav-link",
+      ref: useRef(null),
+    },
+    {
+      label: "Skills",
+      link: "#skill",
       className: "nav-link",
       ref: useRef(null),
     },

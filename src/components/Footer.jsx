@@ -126,6 +126,10 @@ const Footer = () => {
           <p className="text-zinc-500 text-sm">
             &copy; 2025 <span className="text-zinc-200">Jas Singh Ajmani.</span> All rights reserved 
           </p>
+
+           <p className="text-zinc-500 text-sm">
+      Last Updated  <span className="text-zinc-200">October 2025</span>
+    </p>
         </div>
 
       </div>

@@ -151,4 +151,67 @@ body {
 }
 
 
+/* ---------------------------------- *\
+ * EXPERIENCE SECTION (ENHANCED)
+\* ---------------------------------- */
 
+.experience-section {
+  @apply section container relative;
+}
+
+.experience-title {
+  @apply headline-2 text-center mb-16;
+}
+
+/* Timeline container */
+.timeline {
+  @apply relative border-l border-zinc-700 pl-8 space-y-12;
+}
+
+.timeline::before {
+  content: "";
+  @apply absolute left-[6px] top-0 bottom-0 w-[2px] bg-gradient-to-b from-sky-400 to-cyan-300 rounded-full;
+}
+
+/* Each experience item */
+.timeline-item {
+  @apply relative;
+}
+
+.timeline-dot {
+  @apply absolute -left-[11px] top-2 w-4 h-4 rounded-full bg-gradient-to-r from-sky-400 to-cyan-300 shadow-lg;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
+}
+
+.exp-card {
+  @apply bg-zinc-800/60 p-6 rounded-2xl ring-1 ring-zinc-50/5 backdrop-blur-md
+         hover:bg-zinc-800/80 transition-all duration-300 shadow-[0_0_20px_rgba(56,189,248,0.05)];
+}
+
+.exp-header {
+  @apply flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3;
+}
+
+.exp-company {
+  @apply text-sky-400 font-semibold text-xl;
+}
+
+.exp-role {
+  @apply text-zinc-200 text-sm font-medium;
+}
+
+.exp-meta {
+  @apply text-zinc-500 text-sm mb-4 italic;
+}
+
+.exp-list {
+  @apply list-disc pl-5 space-y-2 text-zinc-300 text-[15px];
+}
+
+.timeline-item:hover .timeline-dot {
+  @apply scale-110 shadow-[0_0_25px_rgba(56,189,248,0.8)];
+}
+
+.exp-header img {
+  @apply border border-zinc-700 p-1 bg-zinc-900;
+}

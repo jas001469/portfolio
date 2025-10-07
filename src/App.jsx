@@ -1,10 +1,12 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Skill from "./components/Skill";
+import Experience from "./components/Experience";
 import Work from "./components/Work";
+import Skill from "./components/Skill";
 import Contact from "./components/contact";
 import Footer from "./components/Footer";
+
 
 
 function App() {
@@ -14,8 +16,9 @@ function App() {
   <main>
     <Hero/>
     <About/>
-    <Skill/>
+    <Experience/>
     <Work/>
+    <Skill/>
     <Contact/>
   </main>
   <Footer/>
