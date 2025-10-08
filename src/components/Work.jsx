@@ -9,6 +9,12 @@ const works = [
     projectLink: 'https://ieeegtbit.com/'
   }
   ,{
+    imgSrc: '/images/Alertify.png',
+    title: 'Alertify - Scam Alert System',
+    tags: ['Python','LLMs', 'Machine Learning','NodeJS', 'MongoDB','ReactJS','ExpressJS'],
+    projectLink:'https://github.com/jas001469/Alertify'
+  },
+  {
     imgSrc: '/images/project1.png',
     title: 'CampQuest',
     tags: ['MERN Stack', 'ExpressJS','NodeJS', 'MongoDB','Authentication','API'],

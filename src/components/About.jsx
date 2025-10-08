@@ -22,8 +22,7 @@ const About = () => {
           <div className="ml-0 md:ml-68 w-full md:w-1/2 mt-6 md:mt-0 text-center md:text-left">
             <h2 className="text-5xl md:text-5xl text-[#ffcd41] font-bold px-4 mb-8">About Me</h2>
             <p className="mt-4 text-base md:text-lg px-4 md:px-0 mb-6">
-             When I was in 12th grade, I discovered coding through Python, where I created my year-end project, Shoe Billing System. Since then, my journey has evolved into full-stack development, working with frameworks like React, Node, Express.js, and MongoDB. More over, I have enhanced my knowledge in Data Structures and Algorithm, having strong command on Graph, Trees, Arrays, Linked List, ect. <br />I am eager to expand my knowledge and explore new technologies. 
-            </p>
+             Passionate about building smart and scalable tech solutions, I’m a Full-Stack Developer exploring the intersection of AI, Cloud, and DevOps. I build scalable systems and intelligent applications, integrating Machine Learning models and LLMs into production-ready solutions. Skilled in React, Node.js, Express.js, and MongoDB, I enjoy solving problems through clean architecture, automation, and efficient workflows, while constantly exploring new technologies to create impactful projects. </p>
             <button className="mt-6 bg-white text-black font-bold py-2 px-4 rounded hover:bg-yellow-400 hover:text-pink-700 transition-transform duration-300 hover:scale-110" onClick={()=>{window.location.href='https://www.instagram.com/js.ajmani/'}}>
               Know More
             </button>

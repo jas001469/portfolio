@@ -1,5 +1,5 @@
 import { ButtonPrimary, ButtonOutline } from "./Button";
-import resume from '../assets/Jas Singh Ajmani Resume1.pdf';
+import resume from '../assets/Jas Singh Ajmani Resume2.pdf';
 
 const socialLinks = [
     {
@@ -33,11 +33,11 @@ const socialLinks = [
   ];
   const Hero = () => {
     return (
-      <section id="home" className="pt-28 lg:pt-34 mt-12">
+      <section id="home" className="pt-28 lg:pt-34 mt-6">
   <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
 
     <div>
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 -mt-20">
         <div className="flex items-center gap-1.5 text-zinc-400 text-lg tracking-wide">
           <span className="relative w-3 h-3 rounded-full bg-emerald-400">
             <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
