@@ -1,14 +1,29 @@
 import React from "react";
 import PeakPalsLogo from "../assets/peakpals.jpg"; // replace with actual path
 import ToLetGlobeLogo from "../assets/to_let_globe_logo.jpg"; // replace with actual path
+import EdTrellisLogo from "../assets/EdTrellisLogo.png"; 
 
 const experiences = [
+  {
+    company: "EdTrellis",
+    logo: EdTrellisLogo,
+    role: "SDE Intern",
+    location: "On-site, Gurgaon",
+    duration: "Nov 2025 - Present",
+    responsibilities: ["Developed and enhanced core platform features using React, Node.js, Express, and MongoDB."
+
+,"Implemented secure authentication flows, role-based access, and dynamic dashboards.",
+
+"Built and integrated REST APIs for seamless data handling and improved system efficiency."
+,
+"Collaborated on deployment, testing, and performance optimization for a smooth production experience."]
+  },
   {
     company: "PeakPals",
     logo: PeakPalsLogo,
     role: "SDE (AI) Intern",
     location: "On-site, Noida",
-    duration: "Sept 2025 – Present",
+    duration: "Sept 2025 – Nov 2025",
     responsibilities: [
       "Worked on integrating and fine-tuning Large Language Models (LLMs) for personalized user experiences.",
       "Developed and optimized AI model pipelines with strong backend integration.",
