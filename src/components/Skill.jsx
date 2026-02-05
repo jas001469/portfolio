@@ -7,11 +7,6 @@ const skillItem = [
     desc: 'Design tool'
   },
   {
-    imgSrc: '/images/css3.svg',
-    label: 'CSS',
-    desc: 'User Interface'
-  },
-  {
     imgSrc: '/images/javascript.svg',
     label: 'JavaScript',
     desc: 'Interaction'
@@ -55,6 +50,11 @@ const skillItem = [
     imgSrc: '/images/aws1.svg',
     label: 'AWS',
     desc: 'Cloud Platform'
+  },
+  {
+    imgSrc: '/images/git.svg',
+    label: 'Git',
+    desc: 'Version Control'
   },
   {
     imgSrc: '/images/tailwindcss.svg',
