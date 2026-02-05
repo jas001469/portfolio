@@ -1,7 +1,7 @@
 import React from "react";
 import PeakPalsLogo from "../assets/peakpals.jpg"; // replace with actual path
 import ToLetGlobeLogo from "../assets/to_let_globe_logo.jpg"; // replace with actual path
-import EdTrellisLogo from "../assets/EdTrellisLogo.png"; 
+import EdTrellisLogo from "../assets/edfooter1.jpg"; 
 
 const experiences = [
   {

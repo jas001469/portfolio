@@ -3,6 +3,12 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
+    imgSrc: '/images/EdTrellis13.png',
+    title: 'EdTrellis - Official Job Portal',
+    tags: ['NextJS','TypeScript' ,'ExpressJS', 'API', 'MongoDB', 'Auth'],
+    projectLink: 'https://job-portal-frontend-nu-orcin.vercel.app/'
+  },
+  {
     imgSrc: '/images/project.png',
     title: 'Official IEEE GTBIT SB Website',
     tags: ['React', 'TailwindCSS', 'Firebase', 'Vercel'],
@@ -31,13 +37,7 @@ const works = [
     title: 'BorrowEase',
     tags: ['Graphs', 'React','NodeJS', 'ExpressJS','API','JWT'],
     projectLink: 'https://borrow-ease-five.vercel.app/'
-  },
-  {
-    imgSrc: '/images/project3.avif',
-    title: 'Crypto - Info  app',
-    tags: ['Development', 'API', 'React', 'Graphs'],
-    projectLink: 'https://crypto-cjhg6o754-jas001469.vercel.app/'
-  },
+  }
 ];
 
 
