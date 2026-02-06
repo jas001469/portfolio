@@ -17,13 +17,13 @@ const skillItem = [
     desc: 'Interaction'
   },
   {
-    imgSrc: '/images/nextjs.svg',
-    label: 'Next.js',
+    imgSrc: '/images/react.svg',
+    label: 'React',
     desc: 'Framework'
   },
   {
-    imgSrc: '/images/react.svg',
-    label: 'React',
+    imgSrc: '/images/nextjs.svg',
+    label: 'Next.js',
     desc: 'Framework'
   },
   {
