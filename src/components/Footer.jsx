@@ -128,7 +128,7 @@ const Footer = () => {
           </p>
 
            <p className="text-zinc-500 text-sm">
-      Last Updated  <span className="text-zinc-200">October 2025</span>
+      Last Updated  <span className="text-zinc-200">March 2026</span>
     </p>
         </div>
 

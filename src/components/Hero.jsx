@@ -1,5 +1,5 @@
 import { ButtonPrimary, ButtonOutline } from "./Button";
-import resume from '../assets/Jas Singh Ajmani Resume2.pdf';
+import resume from '../assets/Jas Singh Ajmani Resume3.pdf';
 
 const socialLinks = [
     {
