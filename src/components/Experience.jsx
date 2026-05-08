@@ -9,7 +9,7 @@ const experiences = [
     logo: EdTrellisLogo,
     role: "SDE Intern",
     location: "On-site, Gurgaon",
-    duration: "Nov 2025 - Present",
+    duration: "Nov 2025 - April 2026",
     responsibilities: ["Developed and enhanced core platform features using React, Node.js, Express, and MongoDB."
 
 ,"Implemented secure authentication flows, role-based access, and dynamic dashboards.",

@@ -6,7 +6,7 @@ const works = [
     imgSrc: '/images/EdTrellis13.png',
     title: 'EdTrellis - Official Job Portal',
     tags: ['NextJS','TypeScript' ,'ExpressJS', 'API', 'MongoDB', 'Auth'],
-    projectLink: 'https://job-portal-frontend-nu-orcin.vercel.app/'
+    projectLink: 'https://edtrellis.com/'
   },
   {
     imgSrc: '/images/project.png',
